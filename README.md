@@ -1,2 +1,2 @@
-# akash--k8s-flux
+# akash-k8s-flux
 This is for fluxCD test
