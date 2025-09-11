@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-app
-  namespace: jayshns
+  namespace: akashns
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: web-app
@@ -24,7 +24,7 @@ apiVersion: v1
 kind: Service
 metadata:
  name: web-svc
- namespace: jayshns
+ namespace: akashns
 spec:
   type: NodePort
   selector:
