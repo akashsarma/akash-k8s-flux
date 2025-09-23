@@ -1,4 +1,4 @@
 apiVersion: v1  # capital "V"
 kind: Namespace
 metadata:
-  name: akashns
+  name: akashns1
