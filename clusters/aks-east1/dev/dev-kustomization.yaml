@@ -4,9 +4,10 @@ metadata:
   name: dev
   namespace: flux-system
 spec:
-  interval: 5m
-  path: ./dev
+  interval: 1s
+  path: ./   # points to this dev folder
   prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system
+  validation: client
